@@ -31,7 +31,7 @@ body {
 
 #card {
     background-color: $color-4;
-    width: 80%;
+    width: 348px;
     // margin: auto;
     // vertical-align: auto;
     margin: auto;
@@ -55,6 +55,7 @@ body {
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
+    // width: 100%;
 }
 
 #card-content {
