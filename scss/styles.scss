@@ -15,5 +15,41 @@ $colors: (
 );
 
 body {
+    background-color: $color-3;
+    font-size: 18px;
+    color: $color-1;
+    min-height: 100vh;
+    
+    // color: ;
+}
+
+#card {
     background-color: $color-4;
+    width: 80%;
+    // margin: auto;
+    // vertical-align: auto;
+    margin: auto;
+    display: block;
+
+
+}
+
+.name {
+    color: $color-6;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.direction-flex {
+    flex-direction: column;
+}
+
+#image {
+    padding: 20px;
+}
+
+#card-content {
+    padding: 20px;
 }

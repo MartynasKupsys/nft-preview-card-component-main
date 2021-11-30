@@ -1,5 +1,35 @@
 body {
+  background-color: #0d192b;
+  font-size: 18px;
+  color: #8bacda;
+  min-height: 100vh;
+}
+
+#card {
   background-color: #14253d;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.name {
+  color: white;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.direction-flex {
+  flex-direction: column;
+}
+
+#image {
+  padding: 20px;
+}
+
+#card-content {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
