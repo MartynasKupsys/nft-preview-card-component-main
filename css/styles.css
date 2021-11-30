@@ -1,15 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 body {
   background-color: #0d192b;
   font-size: 18px;
   color: #8bacda;
   min-height: 100vh;
+  font-family: "Outfit", sans-serif;
 }
 
 #card {
   background-color: #14253d;
   width: 80%;
   margin: auto;
-  display: block;
+  border-radius: 15px;
 }
 
 .name {
@@ -20,16 +22,22 @@ body {
   display: flex;
 }
 
-.direction-flex {
+.direction-flex-column {
   flex-direction: column;
 }
 
 #image {
-  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 #card-content {
-  padding: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+h2 {
+  margin: 0px 0px 20px 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 $color-1: hsl(215, 51%, 70%);
 $color-2: hsl(178, 100%, 50%);
 $color-3: hsl(217, 54%, 11%);
 $color-4: hsl(216, 50%, 16%);
 $color-5: hsl(215, 32%, 27%);
 $color-6: hsl(0, 0%, 100%);
+
+$base-font: 18px;
+
+
 
 $colors: (
     "SoftBlue": $color-1,
@@ -16,10 +22,10 @@ $colors: (
 
 body {
     background-color: $color-3;
-    font-size: 18px;
+    font-size: $base-font;
     color: $color-1;
     min-height: 100vh;
-    
+    font-family: 'Outfit', sans-serif;
     // color: ;
 }
 
@@ -29,9 +35,8 @@ body {
     // margin: auto;
     // vertical-align: auto;
     margin: auto;
-    display: block;
-
-
+    // display: block;
+    border-radius: 15px;
 }
 
 .name {
@@ -42,14 +47,20 @@ body {
     display: flex;
 }
 
-.direction-flex {
+.direction-flex-column {
     flex-direction: column;
 }
 
 #image {
-    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #card-content {
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+h2 {
+    margin: 0px 0px 20px 0px;
 }
