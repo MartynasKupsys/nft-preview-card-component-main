@@ -1,0 +1,19 @@
+$color-1: hsl(215, 51%, 70%);
+$color-2: hsl(178, 100%, 50%);
+$color-3: hsl(217, 54%, 11%);
+$color-4: hsl(216, 50%, 16%);
+$color-5: hsl(215, 32%, 27%);
+$color-6: hsl(0, 0%, 100%);
+
+$colors: (
+    "SoftBlue": $color-1,
+    "Cyan": $color-2,
+    "main-BG": $color-3,
+    "card-BG": $color-4,
+    "very-dark-blue-line": $color-5,
+    "white": $color-6
+);
+
+body {
+    background-color: $color-4;
+}
